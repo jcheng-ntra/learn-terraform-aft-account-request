@@ -31,10 +31,10 @@ module "sandbox6" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "lcheung+sandbox6@natera.com"
+    AccountEmail              = "jcheng+sandbox6@natera.com"
     AccountName               = "sandbox6"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "lcheung+sandbox6@natera.com"
+    SSOUserEmail              = "jcheng+sandbox6@natera.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
